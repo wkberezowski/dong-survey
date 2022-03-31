@@ -1,0 +1,79 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #03045e;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 50px;
+  background-color: #caf0f8;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#survey-form {
+  background-color: #90e0ef;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 50%;
+}
+
+#survey-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input,
+select,
+textarea {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #caf0f8;
+  border: 0px;
+  border-radius: 8px;
+  outline: none;
+}
+.enter-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.field-div {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.option-div {
+  margin-bottom: 10px;
+}
+
+.radio-buttons {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 20%;
+}
+.checkboxes {
+  margin-bottom: 10px;
+}
+
+.radio-div {
+  margin-top: 5px;
+}
+
+button {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+  background-color: #00b4d8;
+  font-size: 17px;
+  padding: 10px 15px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}

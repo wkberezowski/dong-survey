@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dong surver</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 id="title">Dong Survey</h1>
+    <p id="description">This is a survey about ya Dong</p>
+    <form id="survey-form">
+      <div class="enter-div">
+        <div class="field-div">
+          <label id="name-label" for="name">Name:</label>
+          <input type="text" required id="name" placeholder="Dong" />
+        </div>
+        <div class="field-div">
+          <label id="email-label" for="email">Email:</label>
+          <input
+            type="email"
+            required
+            id="email"
+            placeholder="dong@gmail.com"
+          />
+        </div>
+        <label id="number-label" for="number">Number:</label>
+        <input
+          type="number"
+          required
+          id="number"
+          min="10"
+          max="1000"
+          placeholder="69"
+        />
+      </div>
+      <div class="option-div">
+        <select name="dropdown" id="dropdown">
+          <option value="">Choose an option</option>
+          <option value="dong">dong</option>
+          <option value="Dong">Dong</option>
+          <option value="DONG">DONG</option>
+        </select>
+      </div>
+      <div class="checkboxes">
+        <label for="have dong">Have dong</label>
+        <input type="checkbox" value="yes" />
+        <label for="have dong">Dont have dong</label>
+        <input type="checkbox" value="no" />
+      </div>
+
+      <div class="radio-buttons">
+        <div class="radio-div">
+          <input type="radio" name="size" value="Smol" />
+          <label for="smol">Smol</label>
+        </div>
+        <div class="radio-div">
+          <input type="radio" name="size" value="Average" />
+          <label for="average">Average</label>
+        </div>
+        <div class="radio-div">
+          <input type="radio" name="size" value="Massive" />
+          <label for="massive">Magnum</label>
+        </div>
+      </div>
+
+      <textarea name="comments" id="" cols="30" rows="10"></textarea>
+      <div class="submit-div">
+        <button id="submit">SUBMIT</button>
+      </div>
+    </form>
+  </body>
+</html>
